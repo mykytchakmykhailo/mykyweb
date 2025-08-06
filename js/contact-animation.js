@@ -26,10 +26,10 @@ document.addEventListener('DOMContentLoaded', () => {
         form.reset();
       } catch (error) {
         console.error('Error submitting form:', error);
-        alert('Помилка при відправці форми. Спробуйте ще раз.');
       }
     });
   } else {
     console.error('Contact form not found');
   }
+
 });
