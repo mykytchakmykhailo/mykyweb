@@ -23,6 +23,6 @@ document.getElementById('contact-form').addEventListener('submit', async (e) => 
     document.getElementById('contact-form').reset();
   } catch (error) {
     console.error('Помилка відправки:', error);
-    alert('Сталася помилка при відправці. Спробуйте ще раз.');
   }
+
 });
